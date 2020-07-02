@@ -1,0 +1,54 @@
+@media (max-width:670px){
+    .head-main h1 {
+        font-size: 35px;
+        letter-spacing: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .head-main h2 {
+        font-size: 50px;
+        letter-spacing: 10px;
+        margin-bottom: 15px;
+    }
+    .nav-list{
+        display:none;
+    }
+    .menu-icon{
+        display:block;
+    }
+    .tour-guide{
+        flex-direction: column;
+    }
+    .tour-container{
+        margin-bottom:50px;
+    }
+    .parallax-text {
+        padding-top: 75px;
+        font-size: 15px;
+    }
+    .card{
+        width:100%;
+    }
+    .card p{
+        font-size:12px;
+    }
+}
+
+@media (max-width:1000px){
+    .tour-guide{
+        flex-direction: column;
+    }
+    .parallax-text {
+        padding-top: 75px;
+        font-size: 20px;
+    }
+    .footer-container{
+        font-size:14px;
+    }
+    .col p, h3 {
+        padding-bottom: 5px;
+    }
+    .col{
+        margin-right:15px;
+    }
+}

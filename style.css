@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(216, 216, 216);
+}
+
+body, html {
+    width: 100%;
+}
+
+/* navbar */
+
+.nav-bar {
+    background-color:#ffbf00;
+    color: #fff;
+    height: 70px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    opacity: 0.95;
+}
+  
+.nav-logo {
+    float: left;
+    font-size: 36px;
+    padding: 10px 30px;
+}
+
+.nav-list {
+    margin-left:20px;
+    float:left;
+}
+
+.nav-list li {
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    padding : 25px 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #fff;
+}
+.nav-list a:hover{
+    font-weight:bold;
+}
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display:none;
+    margin-right:40px;
+  }
+
+/* header main */
+.head-container {
+    background-image: url("headmain.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin: 0 auto;
+    padding: 250px 0;
+    text-align:center;
+}
+
+.head-main {
+    width: 100%;
+    text-align: center;
+    opacity:0.8;
+}
+
+
+.head-main h1 {
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    opacity:1;
+    font-weight:lighter;
+}
+
+.head-main h2 {
+    font-size: 80px;
+    letter-spacing: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+    opacity:1;
+}
+.button-container{
+    margin-top:60px;
+}
+.button-container p{
+    margin:20px;
+    color:#fff;
+    display: inline;
+}
+.button{
+    opacity:0.9;
+    text-decoration: none;
+    padding:10px 20px;
+    border: 2px solid #fff;
+    border-radius:20px;
+    color:#fff;
+    margin-bottom:10px;
+    transition:all 0.4s;
+}
+.button:hover{
+    background-color:#ffbf00;
+    padding:10px 30px;
+    opacity:1;
+}
+/* tour guide */
+
+.tour-guide {
+    background-color: #fff;
+    display:flex;
+    align-items: center;
+    width:100%;
+    padding-bottom:60px;
+}
+
+.tour-container {
+    text-align:center;
+    width:100%;
+    flex:auto;
+}
+
+.tour-container img {
+    width:180px;
+}
+
+.tour-container p {
+    padding-top: 2px;
+    font-size: 15px;
+    padding-left:70px;
+    padding-right: 70px;
+}
+
+.tour-container h3 {
+   margin-top: 20px;
+    font-size: 25px;
+}
+
+/* img strip */
+
+.parallax {
+    background-image: url("strip.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+}
+
+.parallax-text {
+    font-family: 'Playball', cursive;
+    text-align: center;
+    padding-top: 75px;
+    color: #fff;
+    font-size: 30px;
+}
+
+/* main tambahan */
+.wrap{
+    margin:auto;
+    margin-top: 20px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.card img{
+    width:100%;
+}
+.card{
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0 ,0.6);
+    transition: 0.4s;
+    background: #fff;
+    text-align: center;
+    font-size: 16px;
+    padding: 30px;
+    margin-right:10px;
+    margin-left:10px;
+    margin-bottom:20px;
+    width:45%;
+    flex:auto;
+    box-sizing:border-box;
+}
+.card h4, .card p{
+    margin-top:10px;
+}
+.card p{
+    text-align:justify;
+}
+.card:hover{
+    box-shadow: 0 8px 0 rgba(0, 0, 0 ,0.6) ;
+}
+.container{
+    padding: 2px 16px
+}
+/* Footer */
+.footer-container {
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left:20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffbf00;
+    color: white;
+}
+
+.logo h1 {
+    margin-bottom: 10px;
+}
+
+.col {
+    flex:auto;
+}
+
+.col p, h3 {
+    padding-bottom: 10px;
+}
+
+.btn-wrapper {
+    margin: 15px 0;
+  }
+
+.btn {
+    font-size:30px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    margin-right:15px;
+ }
+.btn:hover {
+    opacity: 1;
+ }
+
+.copyright {
+    text-align: center;
+    padding: 10px;
+    color: orange;
+    background-color: white;
+}
